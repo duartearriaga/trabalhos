@@ -1,2 +1,3 @@
-Duarte Santos
-João Ameixa
+Grupo:
+  Duarte Santos
+  João Ameixa
