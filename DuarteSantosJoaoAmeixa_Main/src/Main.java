@@ -12,22 +12,12 @@ public class Main {
 		
 		System.out.println(competicao);
 
-		
-		Jogos jogo = new Jogos();
-		jogo.setEquipaVisitada("FC Badjulas");
-		jogo.setEquipaVisitante("FC Leão");
-		jogo.setGolosEquipaVisitada(5);
-		jogo.setGolosEquipaVisitante(3);
-		jogo.setJornada(1);
-		
-		System.out.println(jogo);
-
-		
 		Arbitros arbitro = new Arbitros();
 		arbitro.setNumeroCartaoCidadao(123456789);
 		arbitro.setContacto(910000111);
 		arbitro.setDataNascimento(new Date());
 		arbitro.setEmail("arbitro@gmail.com");
+		arbitro.setNome("Joaquim");
 
 		
 		Clubes clube1 = new Clubes();
@@ -49,18 +39,28 @@ public class Main {
 		
 		Equipas equipa2 = new Equipas();
 		equipa2.setCodIdentificador(2);
-		equipa2.setNome("FC Badjula");
+		equipa2.setNome("FC Magros");
 		equipa2.setEscalao("Seniores");
 		
 		Equipas equipa3 = new Equipas();
 		equipa3.setCodIdentificador(3);
-		equipa3.setNome("FC Badjula");
+		equipa3.setNome("FC Gordos");
 		equipa3.setEscalao("Seniores");
+		
+		Jogos jogo = new Jogos();
+		jogo.setEquipaVisitada("FC Magros");
+		jogo.setEquipaVisitante("FC Gordos");
+		jogo.setGolosEquipaVisitada(5);
+		jogo.setGolosEquipaVisitante(3);
+		jogo.setJornada(1);
+		
+		
 		
 		System.out.println(equipa1);
 		System.out.println(equipa2);
 		System.out.println(equipa3);
-
+		System.out.println(jogo);
+		
 		
 		competicao.addEquipa(equipa1);
 		competicao.addEquipa(equipa2);
