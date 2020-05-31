@@ -1,4 +1,4 @@
-package projeto;
+import com.DuartesantosJoaoAmeixa.projeto.*;
 import java.util.Date;
 
 public class Main {
@@ -48,12 +48,12 @@ public class Main {
 		equipa1.setEscalao("Seniores");
 		
 		Equipas equipa2 = new Equipas();
-		equipa2.setCodIdentificador(1);
+		equipa2.setCodIdentificador(2);
 		equipa2.setNome("FC Badjula");
 		equipa2.setEscalao("Seniores");
 		
 		Equipas equipa3 = new Equipas();
-		equipa3.setCodIdentificador(1);
+		equipa3.setCodIdentificador(3);
 		equipa3.setNome("FC Badjula");
 		equipa3.setEscalao("Seniores");
 		

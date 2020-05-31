@@ -1,4 +1,4 @@
-package projeto;
+package com.DuartesantosJoaoAmeixa.projeto;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -118,12 +118,12 @@ public class Competicoes {
 	
 	public void addEquipa(Equipas equipaEscalao) {
 		
-		this.equipasparticipantes.add(equipaEscalao);
+		this.equipaEscalao.add(equipaEscalao);
 		
 	}
 	
 	public void removeEquipa(Equipas equipaEscalao) {
-		this.equipasparticipantes.remove(equipaEscalao);
+		this.equipaEscalao.remove(equipaEscalao);
 	}
 	
 	public void addJogo(Jogos jogos) {

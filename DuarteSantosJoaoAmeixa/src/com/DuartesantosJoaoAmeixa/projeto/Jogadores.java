@@ -1,4 +1,4 @@
-package projeto;
+package com.DuartesantosJoaoAmeixa.projeto;
 import java.util.Date;
 
 public class Jogadores extends Equipas{
