@@ -12,9 +12,9 @@ public class Competicoes {
 	private String nome;
 	private Date dateInicio;
 	private Date dateFIm;
-	private List<Clubes> equipasparticipantes;
+//	private List<Clubes> equipasparticipantes;
 	private List<Jogos> jogos;
-	private List<Equipas> equipaEscalao;
+	private List<Equipas> equipaEscalao = new ArrayList();
 
 	// =======================================================
 	// ============ ACESSORES e MODIFICADORES ===============
@@ -52,13 +52,13 @@ public class Competicoes {
 		this.dateFIm = dateFIm;
 	}
 
-	public List<Clubes> getEquipasparticipantes() {
-		return equipasparticipantes;
-	}
-
-	public void setEquipasparticipantes(List<Clubes> equipasparticipantes) {
-		this.equipasparticipantes = equipasparticipantes;
-	}
+//	public List<Clubes> getEquipasparticipantes() {
+//		return equipasparticipantes;
+//	}
+//
+//	public void setEquipasparticipantes(List<Clubes> equipasparticipantes) {
+//		this.equipasparticipantes = equipasparticipantes;
+//	}
 
 	public List<Jogos> getJogos() {
 		return jogos;
@@ -94,7 +94,7 @@ public class Competicoes {
 		this.nome = nome;
 		this.dateInicio = dateInicio;
 		this.dateFIm = dateFIm;
-		this.equipasparticipantes = new ArrayList<Clubes>();
+//		this.equipasparticipantes = new ArrayList<Clubes>();
 		this.jogos = new ArrayList<Jogos>();
 		this.equipaEscalao = new ArrayList<Equipas>();
 	}	
@@ -143,7 +143,7 @@ public class Competicoes {
 	@Override
 	public String toString() {
 		return "Competicoes [cod_identificador=" + codIdentificador + ", nome=" + nome + ", dateInicio=" + dateInicio
-				+ ", dateFIm=" + dateFIm + ", equipasparticipantes=" + equipasparticipantes + ", jogos=" + jogos + "]";
+				+ ", dateFIm=" + dateFIm + ", jogos=" + jogos + "]";
 	}
 
 
