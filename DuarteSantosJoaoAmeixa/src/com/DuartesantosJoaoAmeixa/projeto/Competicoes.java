@@ -13,8 +13,8 @@ public class Competicoes {
 	private Date dateInicio;
 	private Date dateFIm;
 //	private List<Clubes> equipasparticipantes;
-	private List<Jogos> jogos;
-	private List<Equipas> equipaEscalao = new ArrayList();
+	private List<Jogos> jogos = new ArrayList<Jogos>();
+	private List<Equipas> equipaEscalao = new ArrayList<Equipas>();
 
 	// =======================================================
 	// ============ ACESSORES e MODIFICADORES ===============

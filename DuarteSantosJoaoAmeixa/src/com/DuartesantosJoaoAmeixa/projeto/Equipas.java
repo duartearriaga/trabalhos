@@ -10,8 +10,8 @@ public class Equipas extends Clubes {
 	private int codIdentifacador;
 	private String nome;
 	private String escalao;
-	private List<Jogadores> jogadores;
-	private List<Treinadores> treinadores;
+	private List<Jogadores> jogadores = new ArrayList<Jogadores>();
+	private List<Treinadores> treinadores = new ArrayList<Treinadores>();
 
     // =======================================================
     // ============ ACESSORES e MODIFICADORES ===============
@@ -81,7 +81,7 @@ public class Equipas extends Clubes {
 		this.jogadores.add(jogadores);
 	}
 	
-	public void removeJOgadores(Jogadores jogadores) {
+	public void removeJogadores(Jogadores jogadores) {
 		this.jogadores.remove(jogadores);
 	}
 	

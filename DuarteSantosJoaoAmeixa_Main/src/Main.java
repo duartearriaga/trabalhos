@@ -33,17 +33,17 @@ public class Main {
 
 		
 		Equipas equipa1 = new Equipas();
-		equipa1.setCodIdentificador(1);
+		equipa1.setCodIndentifacador(1);
 		equipa1.setNome("FC Badjula");
 		equipa1.setEscalao("Seniores");
 		
 		Equipas equipa2 = new Equipas();
-		equipa2.setCodIdentificador(2);
+		equipa2.setCodIndentifacador(2);
 		equipa2.setNome("FC Magros");
 		equipa2.setEscalao("Seniores");
 		
 		Equipas equipa3 = new Equipas();
-		equipa3.setCodIdentificador(3);
+		equipa3.setCodIndentifacador(3);
 		equipa3.setNome("FC Gordos");
 		equipa3.setEscalao("Seniores");
 		
@@ -62,10 +62,10 @@ public class Main {
 		System.out.println(jogo);
 		
 		
-		competicao.addEquipa(equipa1);
-		competicao.addEquipa(equipa2);
-		competicao.removeEquipa(equipa3);		
-		competicao.addJogo(jogo);
+//		competicao.addEquipa(equipa1);
+//		competicao.addEquipa(equipa2);
+//		competicao.removeEquipa(equipa3);		
+//		competicao.addJogo(jogo);
 
 	}
 
