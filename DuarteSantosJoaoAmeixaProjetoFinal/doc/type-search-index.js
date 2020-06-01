@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Arbitros"},{"p":"<Unnamed>","l":"Clubes"},{"p":"<Unnamed>","l":"Competicoes"},{"p":"<Unnamed>","l":"Equipas"},{"p":"<Unnamed>","l":"Jogadores"},{"p":"<Unnamed>","l":"Jogos"},{"p":"<Unnamed>","l":"Treinadores"}]
